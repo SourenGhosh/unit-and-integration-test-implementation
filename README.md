@@ -1,5 +1,8 @@
 # An example application to implement unit and integration tests using test database
-
+Clean Architechture flow
+```
+model -> service -> repository -> rest_api -> aaplication
+```
 ## Introduction
 A simple application for fetching and inserting musicians using Rest API to demonstrate the examples of 
 unit test and integration test. 
