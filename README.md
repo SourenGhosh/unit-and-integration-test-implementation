@@ -1,7 +1,7 @@
 # An example application to implement unit and integration tests using test database
 Clean Architechture flow
 ```
-model -> service -> repository -> rest_api -> aaplication
+model (Entities layer) -> service (use case) -> repository (usecase) -> client (interface or adapter) -> rest_api (interface) -> aaplication
 ```
 ## Introduction
 A simple application for fetching and inserting musicians using Rest API to demonstrate the examples of 
